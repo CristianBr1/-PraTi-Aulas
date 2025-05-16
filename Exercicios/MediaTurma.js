@@ -1,4 +1,5 @@
-const prompt = require('prompt-sync')();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 
 
 let turmaC = Number(prompt('Digite o número de alunos da turma C: '));

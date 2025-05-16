@@ -1,4 +1,5 @@
-const prompt = require('prompt-sync')();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 
 let totaldeeleitores = Number(prompt('Digite o total de eleitores: '));
 let votosbrancos = Number(prompt('Digite o total de votos em branco: '));

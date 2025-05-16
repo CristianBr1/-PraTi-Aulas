@@ -1,4 +1,5 @@
-const prompt = require('prompt-sync')();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 
 let AlunosturmaC = 60;
 let AlunosturmaD = 20;

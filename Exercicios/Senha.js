@@ -1,4 +1,5 @@
-const prompt = require('prompt-sync')();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 
 let senha = '123456';
 let tentativas = 3;

@@ -1,4 +1,5 @@
-const prompt = require('prompt-sync')();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 
 let num = Number(prompt('Digite um número: '));
 const isNegativo = (num) => {
