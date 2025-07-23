@@ -1,0 +1,116 @@
+nav {
+  width: 100%;
+  background-color: #f8f8f8; /* cor de fundo opcional */
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  justify-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-list a {
+  text-decoration: none;      /* Remove o sublinhado */
+  color: #333;                /* Cor padrão */
+  font-weight: bold;          /* Texto em negrito */
+  padding: 0.5rem 1rem;       /* Espaçamento interno */
+  transition: color 0.3s;     /* Transição suave de cor */
+}
+
+.nav-list a:hover {
+  color: #007BFF;             /* Altera a cor ao passar o mouse */
+  background-color: #e0e0e0;  /* Fundo leve ao hover */
+  border-radius: 5px;         /* Bordas arredondadas */
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Esconde menu padrão e mostra hamburger em telas pequenas */
+@media (max-width: 600px) {
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 1rem;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Contêiner principal com Flexbox para centralizar */
+.galeria-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Galeria organizada por Grid */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas padrão */
+  gap: 1rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Estilo dos itens */
+.item {
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.item:hover {
+  background-color: #e8e8e8;
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.item p {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  font-style: italic;
+}
+
+/* Media query para telas menores */
+@media (max-width: 900px) {
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+}

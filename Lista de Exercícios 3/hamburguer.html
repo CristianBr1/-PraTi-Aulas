@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hamburguer.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+      ☰
+    </div>
+  </nav>
+</header>
+
+<div class="galeria-container">
+  <div class="galeria">
+    <div class="item"><img src="images/img1.jpg" alt="Imagem 1"><p>Shawarma</p></div>
+    <div class="item"><img src="images/img2.jpg" alt="Imagem 2"><p>Sanduiche de Carne</p></div>
+    <div class="item"><img src="images/img3.jpg" alt="Imagem 3"><p>Rolo de Carne com Fritas</p></div>
+    <div class="item"><img src="images/img4.jpg" alt="Imagem 4"><p>hamburger de Carne com Fritas</p></div>
+    <div class="item"><img src="images/img5.jpg" alt="Imagem 5"><p>hamburger de Carne</p></div>
+    <div class="item"><img src="images/img6.jpg" alt="Imagem 6"><p>hamburger de Carne com Fritas</p></div>
+    <div class="item"><img src="images/img7.jpg" alt="Imagem 7"><p>hamburger com Cheddar</p></div>
+    <div class="item"><img src="images/img8.jpg" alt="Imagem 8"><p>Panqueca de Frango</p></div>
+  </div>
+</div>
+
+  <script>
+    function toggleMenu() {
+      const navList = document.querySelector('.nav-list');
+      navList.classList.toggle('active');
+    }
+  </script>
+
+</body>
+
+</html>
