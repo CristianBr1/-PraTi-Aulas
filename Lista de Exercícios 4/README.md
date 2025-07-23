@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="150px" src="" alt="https://github.com/CristianBr1/-PraTi-Aulas/blob/main/Lista%20de%20Exerc%C3%ADcios%204/images/curriculum.gif" alt="GIF de currículo" />
+  <img width="150px" src="https://github.com/CristianBr1/-PraTi-Aulas/blob/main/Lista%20de%20Exerc%C3%ADcios%204/images/curriculum.gif" alt="GIF de currículo" />
 </p>
 
 <h1 align="center">📁 Portfolio - Página Responsiva</h1>
