@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 GitHub Pages
+<h2  align="center"🚀 GitHub Pages:</h2>
 
 <p align="center">
   <a href="https://cristianbrum.github.io/Portfolio/" target="_blank">
@@ -17,27 +17,25 @@
 
 ---
 
-## 🙋‍♂️ Olá, muito prazer!
+<h2 align="center">🙋‍♂️ Olá, muito prazer!</h2>
 
-Sou **Cristian Brum**, desenvolvedor Front-End 💻, estudante de desenvolvimento Web na **+PraTi**, morador de **Sapucaia do Sul - RS 🇧🇷**.
+<p align="center">Sou <b>Cristian Brum</b>, desenvolvedor Front-End 💻, estudante de desenvolvimento Web na <b>+PraTi</b>, morador de <b>Sapucaia do Sul - RS 🇧🇷</b>.</p>
 
----
 
-## 🎯 Objetivo
+<h2  align="center">🎯 Objetivo</h2>  
 
-Mostrar os projetos que desenvolvi individualmente e em equipe — com muito aprendizado, colaboração e dedicação.
+<p align="center">Mostrar os projetos que desenvolvi individualmente e em equipe — com muito aprendizado, colaboração e dedicação.</p>
 
----
 
-## 🧩 Como foi desenvolvido
+<h2  align="center">🧩 Como foi desenvolvido</h2>  
 
-Este portfólio foi criado usando HTML5 E CSS, com foco em responsividade, acessibilidade e boas práticas.
+<p align="center">Este portfólio foi criado usando HTML5 E CSS, com foco em responsividade, acessibilidade e boas práticas. /p>
 
 ---
 
-## 📡 Quer acompanhar minha evolução?
+<h3  align="center">📡 Quer acompanhar minha evolução?</h3> 
 
-### Me siga nas redes sociais:
+<h5  align="center">Me siga nas redes sociais:</h5>
 
 <p align="center">
   <a href="https://github.com/CristianBr1" target="_blank">
